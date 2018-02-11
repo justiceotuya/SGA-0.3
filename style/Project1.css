@@ -45,7 +45,7 @@ a {
     padding: 30px;
     background: #E1BEE7;
     height: 500px;
-    width: 600px;
+    width: 50%;
     margin: 3em auto;
     border-radius: .2em;
     border: 1px solid #000;
@@ -56,4 +56,21 @@ a {
     overflow: hidden;
     backface-visibility: hidden;
     transition: transform .8s cubic-bezier(.63, -0.32, .4, 1.39);
+}
+
+@media screen and (max-width: 628px) and (min-width: 357px) {
+    #card {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 408px) {
+    ul>li {
+        /* list-style: none; */
+        display: inline-flex;
+        margin: auto;
+    }
+    #card {
+        height: 800px;
+    }
 }
