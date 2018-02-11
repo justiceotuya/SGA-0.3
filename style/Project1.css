@@ -27,10 +27,9 @@ input[type="submit"] {
     box-shadow: 0 2.5em .9em -2em #555;
 }
 
-ul>li {
+li {
     /* list-style: none; */
-    display: inline-flex;
-    padding-right: 10px;
+    display: inline;
     margin: 10px;
     text-decoration: none;
 }
@@ -43,6 +42,7 @@ a {
 
 #card {
     padding: 30px;
+    padding-left: 10px;
     background: #E1BEE7;
     height: 500px;
     width: 50%;
@@ -62,15 +62,23 @@ a {
     #card {
         height: 650px;
     }
+    input {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 408px) {
     ul>li {
         /* list-style: none; */
-        display: inline-flex;
+        display: inline;
         margin: auto;
     }
     #card {
-        height: 800px;
+        height: 700px;
     }
+    input {
+        margin-top: 10px;
+    }
+}
+
 }
