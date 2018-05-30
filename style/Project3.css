@@ -1,0 +1,45 @@
+body{
+    font-family:Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    background: #232323;
+}
+
+div{
+    height: 200px;
+    background-size: cover;
+    margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+
+p{
+    background-color: black;
+    padding:10px;
+    opacity: 1;
+    color: rgba(255,255,255,2);
+    background: linear-gradient(bottom, rgba(0,0,0,.2), rgba(0,0,0,.2));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,2), rgba(0,0,0,.2));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,2), rgba(0,0,0,.2));
+    text-align: justify;
+}
+
+div.first{
+    background-image: url('http://buzzghana.com/wp-content/uploads/2014/08/egusi-soup.jpg');
+    background-size: 100%;
+}
+
+div.second{
+    background-image: url('https://i.pinimg.com/originals/cf/29/c5/cf29c50f745c08a875360abe366fd97d.jpg');
+    background-size: 100%;
+}
+
+div.third{
+    background-image: url('http://www.blackfoodrecipes.com/wp-content/uploads/2018/04/1522733691_maxresdefault.jpg');
+    background-size: 100%;
+}
+
+div.fourth{
+    background-image: url('https://i.pinimg.com/originals/c0/02/b0/c002b0e054411b668067b934434683f3.jpg');
+    background-size: 100%;
+}
+
