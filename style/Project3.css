@@ -1,45 +1,109 @@
-body{
-    font-family:Helvetica, sans-serif;
+body {
+    font-family: helvetica, sans-serif;
     margin: 0 auto;
     max-width: 600px;
     background: #232323;
 }
 
-div{
+div {
     height: 200px;
     background-size: cover;
+    position: relative;
     margin: 40px 0 0 0;
-  border-radius: 12px;
+    border-radius: 12px;
 }
 
-p{
+h1 {
+    font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    font-size: 75px;
+    color: #bbb;
+    margin: 0px 0 70px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #bbb;
+    margin: 0px 0 70px 0;
+}
+
+p {
     background-color: black;
-    padding:10px;
+    padding: 10px;
     opacity: 1;
-    color: rgba(255,255,255,2);
-    background: linear-gradient(bottom, rgba(0,0,0,.2), rgba(0,0,0,.2));
-    background: -webkit-linear-gradient(bottom, rgba(0,0,0,2), rgba(0,0,0,.2));
-    background: -moz-linear-gradient(bottom, rgba(0,0,0,2), rgba(0,0,0,.2));
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, .2));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, .2));
     text-align: justify;
+    line-height: 28px;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
 }
 
-div.first{
+small {
+    opacity: 0;
+}
+
+.show-description p {
+    height: 150px;
+}
+
+.show-description small {
+    opacity: 1;
+}
+
+div.first {
     background-image: url('http://buzzghana.com/wp-content/uploads/2014/08/egusi-soup.jpg');
-    background-size: 100%;
+    /* background-size: 100%; */
 }
 
-div.second{
+div.second {
     background-image: url('https://i.pinimg.com/originals/cf/29/c5/cf29c50f745c08a875360abe366fd97d.jpg');
-    background-size: 100%;
+    /* background-size: 100%; */
 }
 
-div.third{
+div.third {
     background-image: url('http://www.blackfoodrecipes.com/wp-content/uploads/2018/04/1522733691_maxresdefault.jpg');
-    background-size: 100%;
+    /* background-size: 100%; */
 }
 
-div.fourth{
+div.fourth {
     background-image: url('https://i.pinimg.com/originals/c0/02/b0/c002b0e054411b668067b934434683f3.jpg');
-    background-size: 100%;
+    /* background-size: 100%; */
 }
 
+.price{
+    float: right;
+}
+
+@media (max-width:500px){
+    h1{
+    font-size:50px;
+    line-height:40px;
+    margin-top:20px; 
+    }
+    
+    h2{
+    margin: 20px 0 30px 0;
+      font-size: 20px;
+      }
+      
+      div{
+      margin:20px 12px 0 12px;
+      }
+      
+      p{
+      font-size:20px;
+      line-height:24px;
+      }
+      
+      small{
+      font-size:16px;
+      }
+    }
